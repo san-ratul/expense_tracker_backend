@@ -1,7 +1,7 @@
-# expense_tracker_backend
+# Expense Tracker Backend
 node backend for expense tracker. Responsible for connecting with database and creating API with user authentication
 
-#This is a node js project
+#This is an express js project
 
 ### After cloning run `npm install` to add node modules and dependencies
 
