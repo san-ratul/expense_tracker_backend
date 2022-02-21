@@ -7,4 +7,4 @@ node backend for expense tracker. Responsible for connecting with database and c
 
 ### After installing the node_modules copy `.env.example` and rename that to `.env`
 ### Then run `npm run watch` to complie with webpack and run development server.
-## The port and host to the .env file
+## You can configure the database connection string, host, port etc. in the .env file
