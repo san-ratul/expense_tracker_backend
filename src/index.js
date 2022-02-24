@@ -16,10 +16,9 @@ const DBUrl = `mongodb+srv://${dbUser}:${dbPassword}@cluster0.iwb9d.mongodb.net/
 mongoose.Promise = global.Promise;
 mongoose.connect(DBUrl, {
     useNewUrlParser: true,
-}).then (() => {
-    console.log('Database connection successful!');
-}).catch (error => {
-    console.log("Could not connect to the database. Error...", err);
+}).then ( () => console.log('Database connection successful!'))
+    .catch (error => {
+    console.log("Could not connect to the database. Error...", error);
     process.exit();
 })
 
